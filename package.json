@@ -1,0 +1,24 @@
+{
+  "name": "create-react-portfolio-template",
+  "version": "0.1.0",
+  "author": "Bruce",
+  "license": "MIT",
+  "homepage": "https://brucean52.github.io/create-react-portfolio-template",
+  "dependencies": {
+    "materialize-css": "^0.100.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
